@@ -1,0 +1,11 @@
+.btn {
+  /* letter-spacing: -0.36px; */
+  outline: none;
+  border: none;
+  width: max-content;
+  /* height: 53px; */
+  color:#000;
+  background-color: #f2f1ff;
+  padding: 10px 20px;
+  border-radius: 8px;
+}

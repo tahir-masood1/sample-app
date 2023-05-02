@@ -1,0 +1,82 @@
+.mainContainer {
+  max-width: 76%;
+}
+.footerMain {
+  background-color: #f2f1ff;
+  padding: 70px 0;
+}
+.colOneMain p {
+  color: var(--footer-link);
+  margin-top: 20px;
+  line-height: 31px;
+  font-size: 14px;
+  max-width: 350px;
+}
+.footerMain h5 {
+  font-size: 25px;
+}
+.quickLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 15px;
+}
+.quickLinks a {
+  color: var(--footer-link);
+  font-size: 14px;
+}
+.contactUs {
+  margin-top: 15px;
+}
+.contactUs p {
+  color: var(--footer-link);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+.inputMain {
+  position: relative;
+  width: 100%;
+  margin-top: 30px;
+}
+.inputMain input {
+  width: 100%;
+  border-radius: 35px;
+  background-color: var(--primary-color);
+  border: none;
+  outline: none;
+  color: var(--white-color);
+  padding: 18px 0;
+  padding-left: 20px;
+  font-size: 14px;
+}
+.inputMain input::placeholder {
+  color: var(--white-color);
+}
+.inputMain button {
+  background-color: var(--white-color);
+  color: var(--primary-color);
+  border-radius: 30px;
+  position: absolute;
+  right: 10px;
+  font-weight: bold;
+  top: 6px;
+}
+.footerBottom {
+  background-color: var(--primary-color);
+  padding: 20px 0;
+  text-align: center;
+}
+.footerBottom p {
+  margin-bottom: 0;
+  color: var(--white-color);
+  font-size: 16px;
+}
+@media screen and (max-width: 1024px) {
+  .colTwoMain,
+  .colThreeMain {
+    margin-top: 20px;
+  }
+}
+

@@ -1,0 +1,39 @@
+.container {
+    width: 80%;
+    margin: 50px auto;
+    
+  }
+  
+  .card {
+    width: 100%;
+    margin-top: 2rem;
+    padding: 1.5rem;
+  }
+  
+  .cardHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .cardBody {
+    margin-bottom: 1rem;
+  }
+  
+  .location {
+    margin-bottom: 0.5rem;
+  }
+  
+  .type {
+    margin-bottom: 0.5rem;
+  }
+  
+  .cardFooter {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .applyButton {
+    margin-left: 1rem;
+  }
+  
